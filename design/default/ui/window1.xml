@@ -21,5 +21,5 @@
   <button x="c" y="m" w="100" h="60" text="button"/>
   <button x="c:105" y="m" w="100" h="60" text="button"/>
 
-  <button name="close" x="c" y="b:10" w="100" h="36" text="关闭"/>
+  <button name="close" x="c" y="b:10" w="100" h="36" text="Close"/>
 </window>
