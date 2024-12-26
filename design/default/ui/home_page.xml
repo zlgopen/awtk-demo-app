@@ -1,0 +1,5 @@
+<window name="home_page">
+  <button name="open1" x="c" y="m:-60" w="168" h="36" text="Open Window1"/>
+  <button name="open2" x="c" y="m" w="168" h="36" text="Open Window2"/>
+  <button name="quit" x="c" y="m:60" w="168" h="36" text="Quit"/>
+</window>
