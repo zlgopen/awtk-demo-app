@@ -3,137 +3,133 @@
 #if !defined(WITH_FS_RES) || defined(AWTK_WEB)
 #include "default/inc/styles/default.data"
 #include "default/inc/ui/home_page.data"
-#include "default/inc/ui/window2.data"
 #include "default/inc/ui/window1.data"
+#include "default/inc/ui/window2.data"
 #ifndef AWTK_WEB
 #ifdef WITH_STB_IMAGE
-#include "default/inc/images/check_d.res"
-#include "default/inc/images/numdot.res"
-#include "default/inc/images/num3.res"
-#include "default/inc/images/num2.res"
-#include "default/inc/images/check_p.res"
-#include "default/inc/images/slider_fg.res"
-#include "default/inc/images/num0.res"
-#include "default/inc/images/num1.res"
-#include "default/inc/images/check_f.res"
-#include "default/inc/images/arrow_up_n.res"
-#include "default/inc/images/arrow_right_p.res"
-#include "default/inc/images/num5.res"
-#include "default/inc/images/num4.res"
-#include "default/inc/images/arrow_right_f.res"
-#include "default/inc/images/arrow_up_o.res"
-#include "default/inc/images/arrow_left_o.res"
-#include "default/inc/images/clock_second.res"
-#include "default/inc/images/arrow_right_d.res"
-#include "default/inc/images/num6.res"
-#include "default/inc/images/num7.res"
-#include "default/inc/images/guage_bg.res"
-#include "default/inc/images/arrow_left_n.res"
-#include "default/inc/images/radio_checked_f.res"
-#include "default/inc/images/radio_f.res"
-#include "default/inc/images/check_checked_d.res"
-#include "default/inc/images/radio_p.res"
-#include "default/inc/images/radio_checked_p.res"
-#include "default/inc/images/rounded_n.res"
-#include "default/inc/images/check_checked_f.res"
-#include "default/inc/images/check_checked_p.res"
-#include "default/inc/images/radio_d.res"
-#include "default/inc/images/rounded_o.res"
-#include "default/inc/images/radio_checked_d.res"
+#include "default/inc/images/arrow_down_d.res"
+#include "default/inc/images/arrow_down_f.res"
 #include "default/inc/images/arrow_down_n.res"
 #include "default/inc/images/arrow_down_o.res"
-#include "default/inc/images/radio_checked_o.res"
-#include "default/inc/images/radio_o.res"
-#include "default/inc/images/slider_bg.res"
-#include "default/inc/images/guage_pointer.res"
-#include "default/inc/images/radio_n.res"
-#include "default/inc/images/radio_checked_n.res"
-#include "default/inc/images/rounded_p.res"
-#include "default/inc/images/check_checked_o.res"
-#include "default/inc/images/check_checked_n.res"
-#include "default/inc/images/arrow_down_d.res"
 #include "default/inc/images/arrow_down_p.res"
-#include "default/inc/images/arrow_down_f.res"
-#include "default/inc/images/clock_bg.res"
-#include "default/inc/images/clock_minute.res"
-#include "default/inc/images/cross.res"
-#include "default/inc/images/check_n.res"
-#include "default/inc/images/num9.res"
-#include "default/inc/images/num8.res"
-#include "default/inc/images/check_o.res"
-#include "default/inc/images/arrow_up_p.res"
-#include "default/inc/images/arrow_right_n.res"
-#include "default/inc/images/arrow_right_o.res"
-#include "default/inc/images/arrow_up_f.res"
 #include "default/inc/images/arrow_left_d.res"
 #include "default/inc/images/arrow_left_f.res"
-#include "default/inc/images/arrow_up_d.res"
+#include "default/inc/images/arrow_left_n.res"
+#include "default/inc/images/arrow_left_o.res"
 #include "default/inc/images/arrow_left_p.res"
+#include "default/inc/images/arrow_right_d.res"
+#include "default/inc/images/arrow_right_f.res"
+#include "default/inc/images/arrow_right_n.res"
+#include "default/inc/images/arrow_right_o.res"
+#include "default/inc/images/arrow_right_p.res"
+#include "default/inc/images/arrow_up_d.res"
+#include "default/inc/images/arrow_up_f.res"
+#include "default/inc/images/arrow_up_n.res"
+#include "default/inc/images/arrow_up_o.res"
+#include "default/inc/images/arrow_up_p.res"
+#include "default/inc/images/check_checked_d.res"
+#include "default/inc/images/check_checked_f.res"
+#include "default/inc/images/check_checked_n.res"
+#include "default/inc/images/check_checked_o.res"
+#include "default/inc/images/check_checked_p.res"
+#include "default/inc/images/check_d.res"
+#include "default/inc/images/check_f.res"
+#include "default/inc/images/check_n.res"
+#include "default/inc/images/check_o.res"
+#include "default/inc/images/check_p.res"
 #include "default/inc/images/clock_hour.res"
+#include "default/inc/images/clock_minute.res"
+#include "default/inc/images/clock_second.res"
+#include "default/inc/images/cross.res"
+#include "default/inc/images/guage_pointer.res"
+#include "default/inc/images/num0.res"
+#include "default/inc/images/num1.res"
+#include "default/inc/images/num2.res"
+#include "default/inc/images/num3.res"
+#include "default/inc/images/num4.res"
+#include "default/inc/images/num5.res"
+#include "default/inc/images/num6.res"
+#include "default/inc/images/num7.res"
+#include "default/inc/images/num8.res"
+#include "default/inc/images/num9.res"
+#include "default/inc/images/numdot.res"
+#include "default/inc/images/radio_checked_d.res"
+#include "default/inc/images/radio_checked_f.res"
+#include "default/inc/images/radio_checked_n.res"
+#include "default/inc/images/radio_checked_o.res"
+#include "default/inc/images/radio_checked_p.res"
+#include "default/inc/images/radio_d.res"
+#include "default/inc/images/radio_f.res"
+#include "default/inc/images/radio_n.res"
+#include "default/inc/images/radio_o.res"
+#include "default/inc/images/radio_p.res"
+#include "default/inc/images/rounded_n.res"
+#include "default/inc/images/rounded_o.res"
+#include "default/inc/images/rounded_p.res"
+#include "default/inc/images/slider_bg.res"
+#include "default/inc/images/slider_fg.res"
 #else /*WITH_STB_IMAGE*/
-#include "default/inc/images/arrow_right_o.data"
-#include "default/inc/images/check_d.data"
-#include "default/inc/images/slider_bg.data"
-#include "default/inc/images/radio_f.data"
-#include "default/inc/images/num2.data"
-#include "default/inc/images/arrow_up_p.data"
-#include "default/inc/images/rounded_p.data"
-#include "default/inc/images/arrow_up_d.data"
-#include "default/inc/images/radio_checked_f.data"
-#include "default/inc/images/num3.data"
-#include "default/inc/images/slider_fg.data"
-#include "default/inc/images/guage_bg.data"
-#include "default/inc/images/check_p.data"
-#include "default/inc/images/arrow_right_n.data"
-#include "default/inc/images/num4.data"
-#include "default/inc/images/clock_bg.data"
-#include "default/inc/images/clock_minute.data"
-#include "default/inc/images/arrow_right_p.data"
-#include "default/inc/images/check_n.data"
-#include "default/inc/images/num8.data"
-#include "default/inc/images/rounded_n.data"
-#include "default/inc/images/arrow_up_o.data"
-#include "default/inc/images/check_checked_f.data"
-#include "default/inc/images/arrow_down_f.data"
-#include "default/inc/images/rounded_o.data"
-#include "default/inc/images/arrow_up_n.data"
-#include "default/inc/images/num9.data"
-#include "default/inc/images/check_o.data"
-#include "default/inc/images/guage_pointer.data"
-#include "default/inc/images/arrow_left_f.data"
-#include "default/inc/images/arrow_right_d.data"
-#include "default/inc/images/num5.data"
-#include "default/inc/images/radio_n.data"
-#include "default/inc/images/cross.data"
-#include "default/inc/images/arrow_left_p.data"
-#include "default/inc/images/clock_second.data"
-#include "default/inc/images/num6.data"
-#include "default/inc/images/check_checked_d.data"
-#include "default/inc/images/arrow_down_p.data"
-#include "default/inc/images/radio_checked_o.data"
-#include "default/inc/images/radio_checked_n.data"
-#include "default/inc/images/check_checked_p.data"
 #include "default/inc/images/arrow_down_d.data"
-#include "default/inc/images/num7.data"
-#include "default/inc/images/arrow_right_f.data"
-#include "default/inc/images/arrow_left_d.data"
-#include "default/inc/images/radio_o.data"
-#include "default/inc/images/radio_d.data"
-#include "default/inc/images/check_f.data"
-#include "default/inc/images/arrow_left_o.data"
+#include "default/inc/images/arrow_down_f.data"
+#include "default/inc/images/arrow_down_n.data"
 #include "default/inc/images/arrow_down_o.data"
-#include "default/inc/images/radio_checked_p.data"
-#include "default/inc/images/clock_hour.data"
+#include "default/inc/images/arrow_down_p.data"
+#include "default/inc/images/arrow_left_d.data"
+#include "default/inc/images/arrow_left_f.data"
+#include "default/inc/images/arrow_left_n.data"
+#include "default/inc/images/arrow_left_o.data"
+#include "default/inc/images/arrow_left_p.data"
+#include "default/inc/images/arrow_right_d.data"
+#include "default/inc/images/arrow_right_f.data"
+#include "default/inc/images/arrow_right_n.data"
+#include "default/inc/images/arrow_right_o.data"
+#include "default/inc/images/arrow_right_p.data"
+#include "default/inc/images/arrow_up_d.data"
+#include "default/inc/images/arrow_up_f.data"
+#include "default/inc/images/arrow_up_n.data"
+#include "default/inc/images/arrow_up_o.data"
+#include "default/inc/images/arrow_up_p.data"
+#include "default/inc/images/check_checked_d.data"
+#include "default/inc/images/check_checked_f.data"
 #include "default/inc/images/check_checked_n.data"
+#include "default/inc/images/check_checked_o.data"
+#include "default/inc/images/check_checked_p.data"
+#include "default/inc/images/check_d.data"
+#include "default/inc/images/check_f.data"
+#include "default/inc/images/check_n.data"
+#include "default/inc/images/check_o.data"
+#include "default/inc/images/check_p.data"
+#include "default/inc/images/clock_hour.data"
+#include "default/inc/images/clock_minute.data"
+#include "default/inc/images/clock_second.data"
+#include "default/inc/images/cross.data"
+#include "default/inc/images/guage_pointer.data"
 #include "default/inc/images/num0.data"
 #include "default/inc/images/num1.data"
-#include "default/inc/images/radio_checked_d.data"
+#include "default/inc/images/num2.data"
+#include "default/inc/images/num3.data"
+#include "default/inc/images/num4.data"
+#include "default/inc/images/num5.data"
+#include "default/inc/images/num6.data"
+#include "default/inc/images/num7.data"
+#include "default/inc/images/num8.data"
+#include "default/inc/images/num9.data"
 #include "default/inc/images/numdot.data"
-#include "default/inc/images/check_checked_o.data"
-#include "default/inc/images/arrow_up_f.data"
-#include "default/inc/images/arrow_down_n.data"
+#include "default/inc/images/radio_checked_d.data"
+#include "default/inc/images/radio_checked_f.data"
+#include "default/inc/images/radio_checked_n.data"
+#include "default/inc/images/radio_checked_o.data"
+#include "default/inc/images/radio_checked_p.data"
+#include "default/inc/images/radio_d.data"
+#include "default/inc/images/radio_f.data"
+#include "default/inc/images/radio_n.data"
+#include "default/inc/images/radio_o.data"
 #include "default/inc/images/radio_p.data"
-#include "default/inc/images/arrow_left_n.data"
+#include "default/inc/images/rounded_n.data"
+#include "default/inc/images/rounded_o.data"
+#include "default/inc/images/rounded_p.data"
+#include "default/inc/images/slider_bg.data"
+#include "default/inc/images/slider_fg.data"
 #endif /*WITH_STB_IMAGE*/
 #ifdef WITH_TRUETYPE_FONT
 #include "default/inc/fonts/default.res"
@@ -154,72 +150,70 @@ ret_t assets_init_default(void) {
 #else /*defined(WITH_FS_RES) && !defined(AWTK_WEB)*/
   assets_manager_add(am, style_default_default);
   assets_manager_add(am, ui_home_page_default);
-  assets_manager_add(am, ui_window2_default);
   assets_manager_add(am, ui_window1_default);
+  assets_manager_add(am, ui_window2_default);
 #ifndef AWTK_WEB
-  assets_manager_add(am, image_check_d_default);
-  assets_manager_add(am, image_numdot_default);
-  assets_manager_add(am, image_num3_default);
-  assets_manager_add(am, image_num2_default);
-  assets_manager_add(am, image_check_p_default);
-  assets_manager_add(am, image_slider_fg_default);
-  assets_manager_add(am, image_num0_default);
-  assets_manager_add(am, image_num1_default);
-  assets_manager_add(am, image_check_f_default);
-  assets_manager_add(am, image_arrow_up_n_default);
-  assets_manager_add(am, image_arrow_right_p_default);
-  assets_manager_add(am, image_num5_default);
-  assets_manager_add(am, image_num4_default);
-  assets_manager_add(am, image_arrow_right_f_default);
-  assets_manager_add(am, image_arrow_up_o_default);
-  assets_manager_add(am, image_arrow_left_o_default);
-  assets_manager_add(am, image_clock_second_default);
-  assets_manager_add(am, image_arrow_right_d_default);
-  assets_manager_add(am, image_num6_default);
-  assets_manager_add(am, image_num7_default);
-  assets_manager_add(am, image_guage_bg_default);
-  assets_manager_add(am, image_arrow_left_n_default);
-  assets_manager_add(am, image_radio_checked_f_default);
-  assets_manager_add(am, image_radio_f_default);
-  assets_manager_add(am, image_check_checked_d_default);
-  assets_manager_add(am, image_radio_p_default);
-  assets_manager_add(am, image_radio_checked_p_default);
-  assets_manager_add(am, image_rounded_n_default);
-  assets_manager_add(am, image_check_checked_f_default);
-  assets_manager_add(am, image_check_checked_p_default);
-  assets_manager_add(am, image_radio_d_default);
-  assets_manager_add(am, image_rounded_o_default);
-  assets_manager_add(am, image_radio_checked_d_default);
+  assets_manager_add(am, image_arrow_down_d_default);
+  assets_manager_add(am, image_arrow_down_f_default);
   assets_manager_add(am, image_arrow_down_n_default);
   assets_manager_add(am, image_arrow_down_o_default);
-  assets_manager_add(am, image_radio_checked_o_default);
-  assets_manager_add(am, image_radio_o_default);
-  assets_manager_add(am, image_slider_bg_default);
-  assets_manager_add(am, image_guage_pointer_default);
-  assets_manager_add(am, image_radio_n_default);
-  assets_manager_add(am, image_radio_checked_n_default);
-  assets_manager_add(am, image_rounded_p_default);
-  assets_manager_add(am, image_check_checked_o_default);
-  assets_manager_add(am, image_check_checked_n_default);
-  assets_manager_add(am, image_arrow_down_d_default);
   assets_manager_add(am, image_arrow_down_p_default);
-  assets_manager_add(am, image_arrow_down_f_default);
-  assets_manager_add(am, image_clock_bg_default);
-  assets_manager_add(am, image_clock_minute_default);
-  assets_manager_add(am, image_cross_default);
-  assets_manager_add(am, image_check_n_default);
-  assets_manager_add(am, image_num9_default);
-  assets_manager_add(am, image_num8_default);
-  assets_manager_add(am, image_check_o_default);
-  assets_manager_add(am, image_arrow_up_p_default);
-  assets_manager_add(am, image_arrow_right_n_default);
-  assets_manager_add(am, image_arrow_right_o_default);
-  assets_manager_add(am, image_arrow_up_f_default);
   assets_manager_add(am, image_arrow_left_d_default);
   assets_manager_add(am, image_arrow_left_f_default);
-  assets_manager_add(am, image_arrow_up_d_default);
+  assets_manager_add(am, image_arrow_left_n_default);
+  assets_manager_add(am, image_arrow_left_o_default);
   assets_manager_add(am, image_arrow_left_p_default);
+  assets_manager_add(am, image_arrow_right_d_default);
+  assets_manager_add(am, image_arrow_right_f_default);
+  assets_manager_add(am, image_arrow_right_n_default);
+  assets_manager_add(am, image_arrow_right_o_default);
+  assets_manager_add(am, image_arrow_right_p_default);
+  assets_manager_add(am, image_arrow_up_d_default);
+  assets_manager_add(am, image_arrow_up_f_default);
+  assets_manager_add(am, image_arrow_up_n_default);
+  assets_manager_add(am, image_arrow_up_o_default);
+  assets_manager_add(am, image_arrow_up_p_default);
+  assets_manager_add(am, image_check_checked_d_default);
+  assets_manager_add(am, image_check_checked_f_default);
+  assets_manager_add(am, image_check_checked_n_default);
+  assets_manager_add(am, image_check_checked_o_default);
+  assets_manager_add(am, image_check_checked_p_default);
+  assets_manager_add(am, image_check_d_default);
+  assets_manager_add(am, image_check_f_default);
+  assets_manager_add(am, image_check_n_default);
+  assets_manager_add(am, image_check_o_default);
+  assets_manager_add(am, image_check_p_default);
   assets_manager_add(am, image_clock_hour_default);
+  assets_manager_add(am, image_clock_minute_default);
+  assets_manager_add(am, image_clock_second_default);
+  assets_manager_add(am, image_cross_default);
+  assets_manager_add(am, image_guage_pointer_default);
+  assets_manager_add(am, image_num0_default);
+  assets_manager_add(am, image_num1_default);
+  assets_manager_add(am, image_num2_default);
+  assets_manager_add(am, image_num3_default);
+  assets_manager_add(am, image_num4_default);
+  assets_manager_add(am, image_num5_default);
+  assets_manager_add(am, image_num6_default);
+  assets_manager_add(am, image_num7_default);
+  assets_manager_add(am, image_num8_default);
+  assets_manager_add(am, image_num9_default);
+  assets_manager_add(am, image_numdot_default);
+  assets_manager_add(am, image_radio_checked_d_default);
+  assets_manager_add(am, image_radio_checked_f_default);
+  assets_manager_add(am, image_radio_checked_n_default);
+  assets_manager_add(am, image_radio_checked_o_default);
+  assets_manager_add(am, image_radio_checked_p_default);
+  assets_manager_add(am, image_radio_d_default);
+  assets_manager_add(am, image_radio_f_default);
+  assets_manager_add(am, image_radio_n_default);
+  assets_manager_add(am, image_radio_o_default);
+  assets_manager_add(am, image_radio_p_default);
+  assets_manager_add(am, image_rounded_n_default);
+  assets_manager_add(am, image_rounded_o_default);
+  assets_manager_add(am, image_rounded_p_default);
+  assets_manager_add(am, image_slider_bg_default);
+  assets_manager_add(am, image_slider_fg_default);
 #ifdef WITH_TRUETYPE_FONT
   assets_manager_add(am, font_default_default);
 #else /*WITH_TRUETYPE_FONT*/
